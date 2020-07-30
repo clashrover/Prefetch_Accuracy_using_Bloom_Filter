@@ -6,7 +6,7 @@
 * Bloom filter is used due to its const lookup time.
 * Determined false positive probability before hand.
 
-To run, type in shell:
-g++ -c  bloom.cpp murmur3.c 
-g++  bloom.o murmur3.o
+To run, type in shell:  
+g++ -c  bloom.cpp murmur3.c   
+g++  bloom.o murmur3.o  
 ./a.out
